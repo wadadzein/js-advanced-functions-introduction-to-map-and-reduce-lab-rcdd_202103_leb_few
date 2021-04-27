@@ -9,24 +9,24 @@
 // console.log (mapToNegative);
 
 function mapToNegativize(sourceArray){
-  sourceArray.map(function(item){
+  return sourceArray.map(function(item){
     return item*-1;
   });
 }
 function mapToNoChange(sourceArray){
- sourceArray.map(function(item){
+ return sourceArray.map(function(item){
     return item;
   });
 }
 
 
 function mapToDouble(sourceArray){
-sourceArray.map(function(item){
+return sourceArray.map(function(item){
     return item * 2;
   });
 }
 function mapToSquare(sourceArray){
-sourceArray.map(function(item){
+return sourceArray.map(function(item){
     return item * item;
   });
 }

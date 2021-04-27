@@ -44,6 +44,7 @@ function reduceToAllTrue(sourceArray){
     else{
       return false;
     }
-  })
+  });
 }
 
+function 

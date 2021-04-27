@@ -39,9 +39,11 @@ function reduceToTotal(sourceArray, startingPoint=0){
 function reduceToAllTrue(sourceArray){
   return sourceArray.reduce(function(result, item){
     if (item===true){
-      
+     return result; 
     }
-    return 
+    else{
+      return false;
+    }
   })
 }
 

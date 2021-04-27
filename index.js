@@ -49,6 +49,10 @@ function reduceToAllTrue(sourceArray){
 
 function reduceToAnyTrue(sourceArray){
   return sourceArray.reduce(function(item,result){
-    if ()
+    if (result===true){
+      return true;
+    }else{
+      return false;
+    }
   });
 }

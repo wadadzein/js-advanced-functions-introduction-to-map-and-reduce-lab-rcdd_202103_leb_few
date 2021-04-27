@@ -37,7 +37,7 @@ function reduceToTotal(sourceArray, startingPoint=0){
 }
 
 function reduceToAllTrue(sourceArray){
-  return sourceArray.reduce(function(result, item){
+  return sourceArray.reduce(function(item){
     if (item===true){
      return true; 
     }

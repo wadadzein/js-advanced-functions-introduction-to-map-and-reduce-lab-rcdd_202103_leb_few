@@ -30,5 +30,11 @@ return sourceArray.map(function(item){
     return item * item;
   });
 }
+function
 
+function reduceToAllTrue(sourceArray){
+  return sourceArray.reduce(function(result, memo){
+    
+  })
+}
 

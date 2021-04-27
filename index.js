@@ -47,4 +47,8 @@ function reduceToAllTrue(sourceArray){
   });
 }
 
-function 
+function reduceToAnyTrue(sourceArray){
+  return sourceArray.reduce(function(item,result){
+    if ()
+  });
+}

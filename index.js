@@ -37,8 +37,11 @@ function reduceToTotal(sourceArray, startingPoint=0){
 }
 
 function reduceToAllTrue(sourceArray){
-  return sourceArray.reduce(function(result, memo){
-    
+  return sourceArray.reduce(function(result, item){
+    if (item===true){
+      
+    }
+    return 
   })
 }
 

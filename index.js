@@ -33,7 +33,7 @@ return sourceArray.map(function(item){
 function reduceToTotal(sourceArray, startingPoint=0){
   return sourceArray.reduce(function(result,item){
     return result+item;
-  });
+  }, startingPoint);
 }
 
 function reduceToAllTrue(sourceArray){
